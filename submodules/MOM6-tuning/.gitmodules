@@ -1,0 +1,8 @@
+[submodule "src/FMS"]
+	path = src/FMS
+	url = git@github.com:ucd-plse/FMS
+	branch = prose
+[submodule "src/MOM6"]
+	path = src/MOM6
+	url = git@github.com:ucd-plse/MOM6
+	branch = prose
