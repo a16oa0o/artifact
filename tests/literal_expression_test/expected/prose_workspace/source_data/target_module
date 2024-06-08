@@ -1,0 +1,2 @@
+/glade/u/home/jdvanover/precimonious-w-rose/tests/literal_expression_test/target_module.f90
+::target_module::target_subroutine+::target_module::sum+::target_module::power+::target_module+

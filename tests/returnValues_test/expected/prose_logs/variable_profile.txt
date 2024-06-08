@@ -1,0 +1,9 @@
+::target_module::explicit_bar::x,variableType=scalar,kind=8
+::target_module::explicit_bar::bar_return,variableType=scalar,kind=8
+::target_module::implicit_bar::implicit_bar,variableType=scalar,kind=8
+::target_module::implicit_bar::x,variableType=scalar,kind=8
+::target_module::target_subroutine::eebr,variableType=scalar,kind=8
+::target_module::target_subroutine::eifr,variableType=scalar,kind=8
+::target_module::target_subroutine::eb,variableType=scalar,kind=8
+::target_module::target_subroutine::result,variableType=scalar,kind=8
+::target_module::target_subroutine::ib,variableType=scalar,kind=8

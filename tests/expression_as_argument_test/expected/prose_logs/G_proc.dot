@@ -1,0 +1,11 @@
+digraph G {
+0[label="::target_module"];
+1[label="::target_module::new_type"];
+2[label="::target_module::target_subroutine"];
+3[label="::main"];
+4[label="::aux_module"];
+5[label="::aux_module::assert_msg"];
+6[label="::aux_module::error_msg"];
+7[label="::aux_module::is_root_pe"];
+3->2 [label="::maincalltarget_subroutine(result)"];
+}

@@ -1,0 +1,3 @@
+/glade/u/home/jdvanover/precimonious-w-rose/tests/deferredArrayShapes_test/target_module.f90
+/glade/u/home/jdvanover/precimonious-w-rose/tests/deferredArrayShapes_test/auxiliary_module.f90
+/glade/u/home/jdvanover/precimonious-w-rose/tests/deferredArrayShapes_test/main.f90

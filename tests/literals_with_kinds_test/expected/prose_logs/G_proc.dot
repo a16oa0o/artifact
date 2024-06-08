@@ -1,0 +1,6 @@
+digraph G {
+0[label="::target_module"];
+1[label="::target_module::target_subroutine"];
+2[label="::main"];
+2->1 [label="::maincalltarget_subroutine(result)"];
+}

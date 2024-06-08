@@ -1,0 +1,9 @@
+::target_module::target_subroutine::ptr2,variableType=pointer,kind=8
+::target_module::target_subroutine::ptr1,variableType=pointer,kind=8
+::target_module::target_subroutine::array1,variableType=array,kind=8
+::target_module::target_subroutine::result,variableType=scalar,kind=16
+::target_module::target_subroutine::array2,variableType=array,kind=8
+::target_module::my_sum_2d::ptr,variableType=pointer,kind=8
+::target_module::my_sum_2d::return_value,variableType=scalar,kind=8
+::target_module::my_sum_3d::ptr,variableType=pointer,kind=8
+::target_module::my_sum_3d::return_value,variableType=scalar,kind=8

@@ -1,0 +1,10 @@
+digraph G {
+0[label="::target_module"];
+1[label="::target_module::my_sum_2d"];
+2[label="::target_module::my_sum_3d"];
+3[label="::target_module::target_subroutine"];
+4[label="::main"];
+3->1 [label="::target_module::target_subroutinemy_sum(ptr1)"];
+3->2 [label="::target_module::target_subroutinemy_sum(ptr2)"];
+4->3 [label="::maincalltarget_subroutine(result,array2)"];
+}

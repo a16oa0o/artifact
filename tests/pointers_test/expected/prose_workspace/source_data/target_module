@@ -1,0 +1,2 @@
+/glade/u/home/jdvanover/precimonious-w-rose/tests/pointers_test/target_module.f90
+::target_module::target_subroutine+::target_module::my_sum_2d+::target_module::my_sum_3d+::target_module+

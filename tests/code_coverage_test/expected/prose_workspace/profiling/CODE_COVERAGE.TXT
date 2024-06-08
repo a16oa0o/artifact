@@ -1,0 +1,35 @@
+                    Coverage Summary
+                    ----------------
+
+Files:       total     cvrd   uncvrd   cvrg%
+             -----     ----   ------  ------
+                 2        2        0  100.00
+
+
+Functions:   total     cvrd   uncvrd   cvrg%
+             -----     ----   ------  ------
+                 2        2        0  100.00
+
+
+Blocks:      total     cvrd   uncvrd   cvrg%
+             -----     ----   ------  ------
+                16       16        0  100.00
+
+
+Lines:       total     cvrd   uncvrd   cvrg%
+             -----     ----   ------  ------
+                13       13        0  100.00
+
+
+
+--------------------------------------------------------------------------------------------------------------------
+
+                          Covered Files
+                          -------------
+
+Name                                                                                               Functions                       Blocks                        Lines
+----                                                                                               ---------                       ------                        -----
+                                                                                             total    cvrd     cvrg%       total    cvrd     cvrg%       total    cvrd     cvrg%
+                                                                                           -------- --------   -----     -------- --------   -----     -------- --------   -----
+/glade/u/home/jdvanover/precimonious-w-rose/tests/code_coverage_test/main.f90                     1        1  100.00           12       12  100.00            6        6  100.00
+/glade/u/home/jdvanover/precimonious-w-rose/tests/code_coverage_test/target_module.f90            1        1  100.00            4        4  100.00            7        7  100.00

@@ -1,0 +1,3 @@
+::target_module::foo::x;::target_module::target_subroutine::result;
+::auxiliary_module_1::foo::x;::target_module::foo::x;
+::target_module::target_subroutine::result;::main::result;

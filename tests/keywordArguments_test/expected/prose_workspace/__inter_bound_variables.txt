@@ -1,0 +1,9 @@
+::auxiliary_module::right::result;::target_module::target_subroutine::result1;
+::auxiliary_module::right::result;::target_module::target_subroutine::result2;
+::auxiliary_module::right::multiplicand;::target_module::target_subroutine::result1;
+::auxiliary_module::right::result;::target_module::target_subroutine::result3;
+::auxiliary_module::right::multiplicand;::target_module::target_subroutine::result2;
+::auxiliary_module::right::result;::target_module::target_subroutine::result4;
+::auxiliary_module::right::multiplicand;::target_module::target_subroutine::result3;
+::auxiliary_module::right::result;::target_module::target_subroutine::result;
+::target_module::target_subroutine::result;::main::result;

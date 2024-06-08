@@ -1,0 +1,14 @@
+digraph G {
+0[label="::auxiliary_module::right"];
+1[label="::target_module"];
+2[label="::target_module::target_subroutine"];
+3[label="::main"];
+4[label="::auxiliary_module"];
+5[label="::auxiliary_module::wrong"];
+2->0 [label="::target_module::target_subroutinecallfoo(result1)"];
+2->0 [label="::target_module::target_subroutinecallfoo(result2,i_in,result1)"];
+2->0 [label="::target_module::target_subroutinecallfoo(result3,op2_in=result2)"];
+2->0 [label="::target_module::target_subroutinecallfoo(result4,op2_in=result3,op1_in=i_in)"];
+2->0 [label="::target_module::target_subroutinecallfoo(result)"];
+3->2 [label="::maincalltarget_subroutine(result)"];
+}

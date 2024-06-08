@@ -1,0 +1,18 @@
+               -: /glade/u/home/jdvanover/precimonious-w-rose/tests/code_coverage_test/main.f90
+               1:      1:program main
+               -:      2:    use target_module, only: target_subroutine
+               -:      3:    implicit none
+               -:      4:
+               -:      5:    real(kind=16)   :: result = 0
+               -:      6:    integer         :: dummy
+               -:      7:
+               2:      8:    do dummy = 1, 2
+               2:      9:        call target_subroutine(result)
+               2:     10:    end do
+               -:     11:
+               -:     12:    ! time left blank intentionally for regression testing
+               -:     13:    ! see eval.py for code that generates cost metric
+               1:     14:    print *, "out: ", result
+               1:     15:    print *, "time: ", dummy
+               -:     16:    
+               -:     17:end program main

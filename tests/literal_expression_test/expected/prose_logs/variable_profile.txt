@@ -1,0 +1,14 @@
+::target_module::sum::sum,variableType=scalar,kind=8
+::target_module::sum::x,variableType=scalar,kind=8
+::target_module::sum::y,variableType=scalar,kind=8
+::target_module::power::x,variableType=scalar,kind=8
+::target_module::target_subroutine::c2,variableType=scalar,kind=8
+::target_module::target_subroutine::b2,variableType=scalar,kind=8
+::target_module::target_subroutine::a2,variableType=scalar,kind=8
+::target_module::target_subroutine::result,variableType=scalar,kind=8
+::target_module::c0,variableType=scalar,kind=8
+::target_module::b0,variableType=scalar,kind=8
+::target_module::a0,variableType=scalar,kind=8
+::target_module::c1,variableType=scalar,kind=8
+::target_module::b1,variableType=scalar,kind=8
+::target_module::a1,variableType=scalar,kind=8

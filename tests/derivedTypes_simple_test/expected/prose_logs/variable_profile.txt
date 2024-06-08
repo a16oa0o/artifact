@@ -1,0 +1,4 @@
+::target_module::target_subroutine::array,variableType=array,kind=8
+::target_module::target_subroutine::result,variableType=scalar,kind=16
+::target_module::my_derived_type::scalar,variableType=scalar,kind=8
+::target_module::construct_array::array,variableType=array,kind=8

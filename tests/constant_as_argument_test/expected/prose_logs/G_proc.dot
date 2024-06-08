@@ -1,0 +1,11 @@
+digraph G {
+0[label="::target_module"];
+1[label="::target_module::sub_subroutine"];
+2[label="::target_module::sub_subroutine2"];
+3[label="::target_module::target_subroutine"];
+4[label="::main"];
+3->1 [label="::target_module::target_subroutinesub_subroutine(pconstant,p1,p2,p3)"];
+3->1 [label="::target_module::target_subroutinesub_subroutine(pconstant,p4,p5,p6)"];
+1->2 [label="::target_module::sub_subroutinesub_subroutine2(pconstant)"];
+4->3 [label="::maincalltarget_subroutine(result,pconstant)"];
+}

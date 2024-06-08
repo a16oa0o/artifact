@@ -1,0 +1,4 @@
+::target_module::power::x;::target_module::target_subroutine::result;
+::target_module::sum::x;::target_module::target_subroutine::result;
+::target_module::sum::y;::target_module::b1;
+::target_module::target_subroutine::result;::main::result;

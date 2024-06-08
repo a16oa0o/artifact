@@ -1,0 +1,2 @@
+/glade/u/home/jdvanover/precimonious-w-rose/tests/returnValues_test/target_module.f90
+::target_module::target_subroutine+::target_module::implicit_bar+::target_module::explicit_bar+::target_module+

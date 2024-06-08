@@ -1,0 +1,2 @@
+000: [PASSED] cost = 84.4421851525048
+001: [FAILED] exceeded error threshold

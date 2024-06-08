@@ -1,0 +1,5 @@
+::target_module::implicit_bar::x;::target_module::target_subroutine::ib;
+::target_module::explicit_bar::x;::target_module::target_subroutine::eb;
+::auxiliary_module::external_implicit_foo_real::x;::target_module::target_subroutine::eifr;
+::auxiliary_module::external_explicit_bar_real::x;::target_module::target_subroutine::eebr;
+::target_module::target_subroutine::result;::main::result;

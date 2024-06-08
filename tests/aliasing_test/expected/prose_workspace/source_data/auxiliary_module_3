@@ -1,0 +1,2 @@
+/glade/u/home/jdvanover/precimonious-w-rose/tests/aliasing_test/auxiliary_module_3.f90
+::auxiliary_module_3::bar+::auxiliary_module_3::baz+::auxiliary_module_3::buzz+::auxiliary_module_3+

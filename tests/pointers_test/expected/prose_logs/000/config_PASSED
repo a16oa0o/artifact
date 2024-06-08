@@ -1,0 +1,13 @@
+::target_module::my_sum_2d::ptr,8
+::target_module::my_sum_2d::return_value,8
+::target_module::my_sum_3d::ptr,8
+::target_module::my_sum_3d::return_value,8
+::target_module::target_subroutine::array1,8
+::target_module::target_subroutine::array2,8
+::target_module::target_subroutine::ptr1,8
+::target_module::target_subroutine::ptr2,8
+::target_module::target_subroutine::result,16
+
+
+
+

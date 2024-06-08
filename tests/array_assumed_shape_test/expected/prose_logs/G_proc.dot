@@ -1,0 +1,9 @@
+digraph G {
+0[label="::auxiliary_module::my_array_sum"];
+1[label="::target_module"];
+2[label="::target_module::target_subroutine"];
+3[label="::main"];
+4[label="::auxiliary_module"];
+2->0 [label="::target_module::target_subroutinemy_array_sum(array,b1)"];
+3->2 [label="::maincalltarget_subroutine(result)"];
+}

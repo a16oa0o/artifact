@@ -1,0 +1,13 @@
+::target_module::target_subroutine::a0,4
+::target_module::target_subroutine::a1,4
+::target_module::target_subroutine::b0,4
+::target_module::target_subroutine::b1,4
+::target_module::target_subroutine::c0,4
+::target_module::target_subroutine::c1,8
+::target_module::target_subroutine::dummy1,8
+::target_module::target_subroutine::dummy2,8
+::target_module::target_subroutine::result,16
+
+
+
+

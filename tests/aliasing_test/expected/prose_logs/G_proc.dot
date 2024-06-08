@@ -1,0 +1,16 @@
+digraph G {
+0[label="::auxiliary_module_1::foo"];
+1[label="::target_module"];
+2[label="::target_module::foo"];
+3[label="::target_module::target_subroutine"];
+4[label="::auxiliary_module_1"];
+5[label="::auxiliary_module_2"];
+6[label="::main"];
+7[label="::auxiliary_module_3"];
+8[label="::auxiliary_module_3::bar"];
+9[label="::auxiliary_module_3::baz"];
+10[label="::auxiliary_module_3::buzz"];
+3->2 [label="::target_module::target_subroutinefoo(result)"];
+2->0 [label="::target_module::foofoo_alias(x)"];
+6->3 [label="::maincalltarget_subroutine(result)"];
+}

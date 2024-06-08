@@ -1,0 +1,2 @@
+::auxiliary_module::get_param_real::value;::target_module::target_subroutine::result;
+::target_module::target_subroutine::result;::main::result;

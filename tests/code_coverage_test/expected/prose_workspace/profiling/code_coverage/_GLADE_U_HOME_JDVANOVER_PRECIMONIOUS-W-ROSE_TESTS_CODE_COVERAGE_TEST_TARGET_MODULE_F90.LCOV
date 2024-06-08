@@ -1,0 +1,20 @@
+               -: /glade/u/home/jdvanover/precimonious-w-rose/tests/code_coverage_test/target_module.f90
+               -:      1:MODULE target_module
+               -:      2:IMPLICIT NONE
+               -:      3:REAL :: a1 = 4.0, b1 = 5.0, c1 = 6.0
+               -:      4:REAL(kind=4) :: a0 = 1.0, b0 = 2.0, c0 = 3.0
+               -:      5:CONTAINS
+               2:      6:SUBROUTINE target_subroutine(result)
+               -:      7:REAL :: a2, b2, c2
+               -:      8:REAL(kind=16) :: result
+               -:      9:INTEGER :: i
+               2:     10:a2 = a0 + a1
+               2:     11:b2 = b0 + b1
+               2:     12:c2 = c0 + c1
+              22:     13:DO i = 0, 10
+              22:     14:result = result + a2 + b2 + c2
+              22:     15:END DO
+               -:     16:END SUBROUTINE 
+               -:     17:
+               -:     18:END MODULE target_module
+               -:     19:

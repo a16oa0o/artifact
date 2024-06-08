@@ -1,0 +1,3 @@
+::target_module::sub_subroutine::pconstant
+::target_module::target_subroutine::pconstant
+::target_module::sub_subroutine2::pconstant

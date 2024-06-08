@@ -1,0 +1,24 @@
+               -: /glade/u/home/jdvanover/precimonious-w-rose/tests/aliasing_test/target_module.f90
+               -:      1:MODULE target_module
+               -:      2:USE auxiliary_module_1, ONLY : foo_alias => foo
+               -:      3:USE auxiliary_module_2, ONLY : bar_alias , baz_alias
+               -:      4:USE auxiliary_module_3, ONLY : buzz
+               -:      5:IMPLICIT NONE
+               -:      6:CONTAINS
+               1:      7:SUBROUTINE target_subroutine(result)
+               -:      8:REAL(kind=8) :: result
+               1:      9:result = - 3.14
+               1:     10:CALL bar_alias()
+               1:     11:result = 2.718281828459045 * foo(result)
+               1:     12:CALL baz_alias()
+               -:     13:END SUBROUTINE 
+               -:     14:
+               1:     15: FUNCTION foo(x)
+               -:     16:INTEGER :: foo
+               -:     17:REAL(kind=8) :: x
+               1:     18:CALL buzz()
+               1:     19:foo = foo_alias(x)
+               -:     20:END  FUNCTION 
+               -:     21:
+               -:     22:END MODULE target_module
+               -:     23:

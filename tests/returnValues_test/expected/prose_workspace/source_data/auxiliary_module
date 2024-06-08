@@ -1,0 +1,2 @@
+/glade/u/home/jdvanover/precimonious-w-rose/tests/returnValues_test/auxiliary_module.f90
+::auxiliary_module::external_implicit_foo_real+::auxiliary_module::external_explicit_foo_int+::auxiliary_module::external_implicit_bar_int+::auxiliary_module::external_explicit_bar_real+::auxiliary_module+

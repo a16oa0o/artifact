@@ -1,0 +1,10 @@
+digraph G {
+0[label="::target_module"];
+1[label="::target_module::power"];
+2[label="::target_module::sum"];
+3[label="::target_module::target_subroutine"];
+4[label="::main"];
+3->1 [label="::target_module::target_subroutinecallpower(result,i)"];
+3->2 [label="::target_module::target_subroutinesum(90.-result,b1)"];
+4->3 [label="::maincalltarget_subroutine(result)"];
+}

@@ -1,0 +1,14 @@
+000: [PASSED] cost = 84.4421851525048
+001: [FAILED] exceeded error threshold
+002: [PASSED] cost = 95.60342718892494
+003: [FAILED] exceeded error threshold
+004: [PASSED] cost = 23.604808973743452
+005: [FAILED] exceeded error threshold
+006: [PASSED] cost = 79.3340083761663
+007: [FAILED] exceeded error threshold
+008: [PASSED] cost = 22.67058593810488
+009: [FAILED] exceeded error threshold
+010: [PASSED] cost = 57.14025946899135
+011: [FAILED] exceeded error threshold
+012: [PASSED] cost = 47.45706786885481
+013: [FAILED] exceeded error threshold

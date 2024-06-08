@@ -1,0 +1,17 @@
+digraph G {
+0[label="::auxiliary_module::external_explicit_bar_real"];
+1[label="::auxiliary_module::external_implicit_foo_real"];
+2[label="::target_module"];
+3[label="::target_module::explicit_bar"];
+4[label="::target_module::implicit_bar"];
+5[label="::target_module::target_subroutine"];
+6[label="::main"];
+7[label="::auxiliary_module"];
+8[label="::auxiliary_module::external_explicit_foo_int"];
+9[label="::auxiliary_module::external_implicit_bar_int"];
+5->4 [label="::target_module::target_subroutineimplicit_bar(ib)"];
+5->3 [label="::target_module::target_subroutineexplicit_bar(eb)"];
+5->1 [label="::target_module::target_subroutineexternal_foo(eifr)"];
+5->0 [label="::target_module::target_subroutineexternal_bar(eebr)"];
+6->5 [label="::maincalltarget_subroutine(result)"];
+}

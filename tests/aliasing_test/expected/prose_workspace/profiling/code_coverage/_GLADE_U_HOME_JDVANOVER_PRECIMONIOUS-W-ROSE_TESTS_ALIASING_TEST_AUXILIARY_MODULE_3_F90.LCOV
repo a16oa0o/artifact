@@ -1,0 +1,22 @@
+               -: /glade/u/home/jdvanover/precimonious-w-rose/tests/aliasing_test/auxiliary_module_3.f90
+               -:      1:module auxiliary_module_3
+               -:      2:
+               -:      3:    implicit none; private
+               -:      4:
+               -:      5:    public  ::  bar, baz, buzz
+               -:      6:
+               -:      7:    contains
+               -:      8:
+               1:      9:    subroutine bar()
+               1:     10:        call sleep(1)
+               -:     11:    end subroutine
+               -:     12:
+               1:     13:    subroutine baz()
+               1:     14:        call sleep(1)
+               -:     15:    end subroutine
+               -:     16:
+               1:     17:    subroutine buzz()
+               1:     18:        call sleep(1)
+               -:     19:    end subroutine
+               -:     20:
+               -:     21:end module auxiliary_module_3

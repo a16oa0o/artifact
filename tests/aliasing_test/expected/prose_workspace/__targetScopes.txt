@@ -1,0 +1,3 @@
+::target_module::foo
+::target_module::target_subroutine
+::target_module

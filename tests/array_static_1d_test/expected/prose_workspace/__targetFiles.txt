@@ -1,0 +1,2 @@
+/glade/u/home/jdvanover/precimonious-w-rose/tests/array_static_1d_test/target_module.f90
+/glade/u/home/jdvanover/precimonious-w-rose/tests/array_static_1d_test/main.f90

@@ -1,0 +1,8 @@
+::target_module::construct_array::array,4
+::target_module::my_derived_type::scalar,8
+::target_module::target_subroutine::array,8
+::target_module::target_subroutine::result,16
+
+
+
+

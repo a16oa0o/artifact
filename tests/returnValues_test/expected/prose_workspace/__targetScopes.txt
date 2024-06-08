@@ -1,0 +1,4 @@
+::target_module::explicit_bar
+::target_module::implicit_bar
+::target_module
+::target_module::target_subroutine

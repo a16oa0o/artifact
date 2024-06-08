@@ -1,0 +1,2 @@
+::target_module::construct_array::array;::target_module::target_subroutine::array;
+::target_module::target_subroutine::result;::main::result;

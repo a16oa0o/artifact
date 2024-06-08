@@ -1,0 +1,3 @@
+::auxiliary_module::my_array_sum::array;::target_module::target_subroutine::array;
+::auxiliary_module::my_array_sum::scalar;::target_module::target_subroutine::b1;
+::target_module::target_subroutine::result;::main::result;

@@ -1,0 +1,5174 @@
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+Now using NPL virtual environment at path:
+    /glade/u/apps/ch/opt/python/3.7.9/gnu/9.1.0/pkg-library/20201220
+
+Use deactivate to remove NPL from environment
+
+#######################################################
+Using ROSE_DEPENDENCIES_ROOT=/glade/work/altuntas/ROSE
+Using ROSE_INSTALL_PATH=/glade/work/jdvanover/ROSE/install
+Using PROSE_REPO_PATH=/glade/u/home/jdvanover/precimonious-w-rose
+#######################################################
+/glade/work/jdvanover ~/precimonious-w-rose/tests/hierarchical_clustering_experiment
+~/precimonious-w-rose/tests/hierarchical_clustering_experiment /glade/work/jdvanover
+Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
+Now using NPL virtual environment at path:
+    /glade/u/apps/ch/opt/python/3.7.9/gnu/9.1.0/pkg-library/20201220
+
+Use deactivate to remove NPL from environment
+
+#######################################################
+Using ROSE_DEPENDENCIES_ROOT=/glade/work/altuntas/ROSE
+Using ROSE_INSTALL_PATH=/glade/work/jdvanover/ROSE/install
+Using PROSE_REPO_PATH=/glade/u/home/jdvanover/precimonious-w-rose
+#######################################################
+rm -rf *.mod *.o main prose_logs preprocessed_* initial_config.txt *.rmod rose* prose_workspace
+rose-compiler -ffree-line-length-none -fno-range-check -rose:plugin_lib /glade/u/home/jdvanover/precimonious-w-rose/plugins/ProsePlugin.so -rose:plugin_action prose-generate-graph -rose:plugin_arg_prose-generate-graph ./ -rose:skip_syntax_check -rose:skipfinalCompileStep -c auxiliary_module.f90
+rose-compiler -ffree-line-length-none -fno-range-check -rose:plugin_lib /glade/u/home/jdvanover/precimonious-w-rose/plugins/ProsePlugin.so -rose:plugin_action prose-generate-graph -rose:plugin_arg_prose-generate-graph ./ -rose:skip_syntax_check -rose:skipfinalCompileStep -c target_module.f90
+rose-compiler -ffree-line-length-none -fno-range-check -rose:plugin_lib /glade/u/home/jdvanover/precimonious-w-rose/plugins/ProsePlugin.so -rose:plugin_action prose-generate-graph -rose:plugin_arg_prose-generate-graph ./ -rose:skip_syntax_check -rose:skipfinalCompileStep -o main main.f90 target_module.o auxiliary_module.o 
+NOTE: In unparseFile(): file->get_processedToIncludeCppDirectivesAndComments() == false 
+SgClassSymbol is not in parent's child list, node: 0x2be7cd0 = SgClassSymbol = target_module_symbol_ parent: 0x2b727685d640 = SgSymbolTable = _symbol_table_ 
+NOTE: In unparseFile(): file->get_processedToIncludeCppDirectivesAndComments() == false 
+  adding: G_var.dot (deflated 89%)
+** Setting Paths
+** Creating required directories
+** Generating .rmod files and building graphs 
+** Loading G_proc into Python framework
+** Constructing source transformers for all project files
+** Processing discovered variable bindings and propagating constants
+** Generating search space
+** run compilation once, for future incremental builds
+** copying minimum files to temp folder
+current batch: from 0 to 0
+===== Testing configuration #0 =====
+	 ** compiling project
+	 ** executing and evaluating project
+run #0
+	 ** [PASSED] cost = 5.0
+
+current batch: from 1 to 1
+===== Testing configuration #1 =====
+	 ** compiling project
+	 ** executing and evaluating project 1
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 2 to 3
+===== Testing configuration #2 =====
+	 ** compiling project
+	 ** executing and evaluating project 2
+run #0
+===== Testing configuration #3 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 3
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 4 to 11
+===== Testing configuration #4 =====
+	 ** compiling project
+	 ** executing and evaluating project 4
+run #0
+===== Testing configuration #5 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 5
+run #0
+===== Testing configuration #6 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 6
+run #0
+===== Testing configuration #7 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 7
+run #0
+===== Testing configuration #8 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 8
+run #0
+===== Testing configuration #9 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 9
+run #0
+===== Testing configuration #10 =====
+	 ** compiling project
+	 ** [PASSED] cost = 4.0
+
+	 ** executing and evaluating project 10
+run #0
+===== Testing configuration #11 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 11
+run #0
+	 ** [PASSED] cost = 5.0
+
+current batch: from 12 to 17
+===== Testing configuration #12 =====
+	 ** compiling project
+	 ** executing and evaluating project 12
+run #0
+===== Testing configuration #13 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 13
+run #0
+===== Testing configuration #14 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 14
+run #0
+===== Testing configuration #15 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 15
+run #0
+===== Testing configuration #16 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 16
+run #0
+===== Testing configuration #17 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 17
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 18 to 29
+===== Testing configuration #18 =====
+	 ** compiling project
+	 ** executing and evaluating project 18
+run #0
+===== Testing configuration #19 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 19
+run #0
+===== Testing configuration #20 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 20
+run #0
+===== Testing configuration #21 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 21
+run #0
+===== Testing configuration #22 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 22
+run #0
+===== Testing configuration #23 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 23
+run #0
+===== Testing configuration #24 =====
+	 ** compiling project
+	 ** [PASSED] cost = 4.0
+
+	 ** executing and evaluating project 24
+run #0
+===== Testing configuration #25 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 25
+run #0
+===== Testing configuration #26 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 26
+run #0
+===== Testing configuration #27 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 27
+run #0
+===== Testing configuration #28 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 28
+run #0
+===== Testing configuration #29 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 29
+run #0
+	 ** [PASSED] cost = 4.0
+
+current batch: from 30 to 53
+===== Testing configuration #30 =====
+	 ** compiling project
+	 ** executing and evaluating project 30
+run #0
+===== Testing configuration #31 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 31
+run #0
+===== Testing configuration #32 =====
+	 ** compiling project
+	 ** [PASSED] cost = 3.0
+
+	 ** executing and evaluating project 32
+run #0
+===== Testing configuration #33 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 33
+run #0
+===== Testing configuration #34 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 34
+run #0
+===== Testing configuration #35 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 35
+run #0
+===== Testing configuration #36 =====
+	 ** compiling project
+	 ** [PASSED] cost = 4.0
+
+	 ** executing and evaluating project 36
+run #0
+===== Testing configuration #37 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 37
+run #0
+===== Testing configuration #38 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 38
+run #0
+===== Testing configuration #39 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 39
+run #0
+===== Testing configuration #40 =====
+	 ** compiling project
+	 ** [PASSED] cost = 4.0
+
+	 ** executing and evaluating project 40
+run #0
+===== Testing configuration #41 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 41
+run #0
+===== Testing configuration #42 =====
+	 ** compiling project
+	 ** [PASSED] cost = 4.0
+
+	 ** executing and evaluating project 42
+run #0
+===== Testing configuration #43 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 43
+run #0
+===== Testing configuration #44 =====
+	 ** compiling project
+	 ** executing and evaluating project 44
+run #0
+===== Testing configuration #45 =====
+	 ** compiling project
+	 ** [PASSED] cost = 2.0
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 45
+run #0
+===== Testing configuration #46 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 46
+run #0
+===== Testing configuration #47 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 47
+run #0
+===== Testing configuration #48 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 48
+run #0
+===== Testing configuration #49 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 49
+run #0
+===== Testing configuration #50 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 50
+run #0
+===== Testing configuration #51 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 51
+run #0
+===== Testing configuration #52 =====
+	 ** compiling project
+	 ** [PASSED] cost = 4.0
+
+	 ** executing and evaluating project 52
+run #0
+===== Testing configuration #53 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 53
+run #0
+	 ** [PASSED] cost = 4.0
+
+current batch: from 54 to 75
+===== Testing configuration #54 =====
+	 ** compiling project
+	 ** executing and evaluating project 54
+run #0
+===== Testing configuration #55 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 55
+run #0
+===== Testing configuration #56 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1.0
+
+	 ** executing and evaluating project 56
+run #0
+===== Testing configuration #57 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 57
+run #0
+===== Testing configuration #58 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 58
+run #0
+===== Testing configuration #59 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 59
+run #0
+===== Testing configuration #60 =====
+	 ** compiling project
+	 ** [PASSED] cost = 2.0
+
+	 ** executing and evaluating project 60
+run #0
+===== Testing configuration #61 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 61
+run #0
+===== Testing configuration #62 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 62
+run #0
+===== Testing configuration #63 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 63
+run #0
+===== Testing configuration #64 =====
+	 ** compiling project
+	 ** [PASSED] cost = 2.0
+
+	 ** executing and evaluating project 64
+run #0
+===== Testing configuration #65 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 65
+run #0
+===== Testing configuration #66 =====
+	 ** compiling project
+	 ** executing and evaluating project 66
+run #0
+===== Testing configuration #67 =====
+	 ** compiling project
+	 ** [PASSED] cost = 2.0
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 67
+run #0
+===== Testing configuration #68 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 68
+run #0
+===== Testing configuration #69 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 69
+run #0
+===== Testing configuration #70 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 70
+run #0
+===== Testing configuration #71 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 71
+run #0
+===== Testing configuration #72 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 72
+run #0
+===== Testing configuration #73 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 73
+run #0
+===== Testing configuration #74 =====
+	 ** compiling project
+	 ** [PASSED] cost = 2.0
+
+	 ** executing and evaluating project 74
+run #0
+===== Testing configuration #75 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 75
+run #0
+	 ** [PASSED] cost = 2.0
+
+current batch: from 76 to 95
+===== Testing configuration #76 =====
+	 ** compiling project
+	 ** executing and evaluating project 76
+run #0
+===== Testing configuration #77 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 77
+run #0
+===== Testing configuration #78 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 78
+run #0
+===== Testing configuration #79 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 79
+run #0
+===== Testing configuration #80 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1.0
+
+	 ** executing and evaluating project 80
+run #0
+===== Testing configuration #81 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 81
+run #0
+===== Testing configuration #82 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 82
+run #0
+===== Testing configuration #83 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 83
+run #0
+===== Testing configuration #84 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1.0
+
+	 ** executing and evaluating project 84
+run #0
+===== Testing configuration #85 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 85
+run #0
+===== Testing configuration #86 =====
+	 ** compiling project
+	 ** executing and evaluating project 86
+run #0
+===== Testing configuration #87 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1.0
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 87
+run #0
+===== Testing configuration #88 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 88
+run #0
+===== Testing configuration #89 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 89
+run #0
+===== Testing configuration #90 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 90
+run #0
+===== Testing configuration #91 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 91
+run #0
+===== Testing configuration #92 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 92
+run #0
+===== Testing configuration #93 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 93
+run #0
+===== Testing configuration #94 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1.0
+
+	 ** executing and evaluating project 94
+run #0
+===== Testing configuration #95 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 95
+run #0
+	 ** [PASSED] cost = 1.0
+
+current batch: from 96 to 97
+===== Testing configuration #96 =====
+	 ** compiling project
+	 ** executing and evaluating project 96
+run #0
+===== Testing configuration #97 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1.0
+
+	 ** executing and evaluating project 97
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 98 to 99
+===== Testing configuration #98 =====
+	 ** compiling project
+	 ** executing and evaluating project 98
+run #0
+===== Testing configuration #99 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 99
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 100 to 101
+===== Testing configuration #100 =====
+	 ** compiling project
+	 ** executing and evaluating project 100
+run #0
+===== Testing configuration #101 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 101
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 102 to 109
+===== Testing configuration #102 =====
+	 ** compiling project
+	 ** executing and evaluating project 102
+run #0
+===== Testing configuration #103 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 103
+run #0
+===== Testing configuration #104 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 104
+run #0
+===== Testing configuration #105 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 105
+run #0
+===== Testing configuration #106 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 106
+run #0
+===== Testing configuration #107 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 107
+run #0
+===== Testing configuration #108 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 108
+run #0
+===== Testing configuration #109 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 109
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 110 to 111
+===== Testing configuration #110 =====
+	 ** compiling project
+	 ** executing and evaluating project 110
+run #0
+===== Testing configuration #111 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 111
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 112 to 113
+===== Testing configuration #112 =====
+	 ** compiling project
+	 ** executing and evaluating project 112
+run #0
+===== Testing configuration #113 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 113
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 114 to 119
+===== Testing configuration #114 =====
+	 ** compiling project
+	 ** executing and evaluating project 114
+run #0
+===== Testing configuration #115 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 115
+run #0
+===== Testing configuration #116 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 116
+run #0
+===== Testing configuration #117 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 117
+run #0
+===== Testing configuration #118 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 118
+run #0
+===== Testing configuration #119 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 119
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 120 to 121
+===== Testing configuration #120 =====
+	 ** compiling project
+	 ** executing and evaluating project 120
+run #0
+===== Testing configuration #121 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 121
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 122 to 123
+===== Testing configuration #122 =====
+	 ** compiling project
+	 ** executing and evaluating project 122
+run #0
+===== Testing configuration #123 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 123
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 124 to 129
+===== Testing configuration #124 =====
+	 ** compiling project
+	 ** executing and evaluating project 124
+run #0
+===== Testing configuration #125 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 125
+run #0
+===== Testing configuration #126 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 126
+run #0
+===== Testing configuration #127 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 127
+run #0
+===== Testing configuration #128 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 128
+run #0
+===== Testing configuration #129 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 129
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 130 to 131
+===== Testing configuration #130 =====
+	 ** compiling project
+	 ** executing and evaluating project 130
+run #0
+===== Testing configuration #131 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 131
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 132 to 133
+===== Testing configuration #132 =====
+	 ** compiling project
+	 ** executing and evaluating project 132
+run #0
+===== Testing configuration #133 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 133
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 134 to 141
+===== Testing configuration #134 =====
+	 ** compiling project
+	 ** executing and evaluating project 134
+run #0
+===== Testing configuration #135 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 135
+run #0
+===== Testing configuration #136 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 136
+run #0
+===== Testing configuration #137 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 137
+run #0
+===== Testing configuration #138 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 138
+run #0
+===== Testing configuration #139 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 139
+run #0
+===== Testing configuration #140 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 140
+run #0
+===== Testing configuration #141 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 141
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 142 to 143
+===== Testing configuration #142 =====
+	 ** compiling project
+	 ** executing and evaluating project 142
+run #0
+===== Testing configuration #143 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 143
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 144 to 145
+===== Testing configuration #144 =====
+	 ** compiling project
+	 ** executing and evaluating project 144
+run #0
+===== Testing configuration #145 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 145
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 146 to 153
+===== Testing configuration #146 =====
+	 ** compiling project
+	 ** executing and evaluating project 146
+run #0
+===== Testing configuration #147 =====
+	 ** compiling project
+	 ** executing and evaluating project 147
+run #0
+===== Testing configuration #148 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 148
+run #0
+===== Testing configuration #149 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 149
+run #0
+===== Testing configuration #150 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 150
+run #0
+===== Testing configuration #151 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 151
+run #0
+===== Testing configuration #152 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 152
+run #0
+===== Testing configuration #153 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 153
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 154 to 169
+===== Testing configuration #154 =====
+	 ** compiling project
+	 ** executing and evaluating project 154
+run #0
+===== Testing configuration #155 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 155
+run #0
+===== Testing configuration #156 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 156
+run #0
+===== Testing configuration #157 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 157
+run #0
+===== Testing configuration #158 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 158
+run #0
+===== Testing configuration #159 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 159
+run #0
+===== Testing configuration #160 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 160
+run #0
+===== Testing configuration #161 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 161
+run #0
+===== Testing configuration #162 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 162
+run #0
+===== Testing configuration #163 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 163
+run #0
+===== Testing configuration #164 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 164
+run #0
+===== Testing configuration #165 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 165
+run #0
+===== Testing configuration #166 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 166
+run #0
+===== Testing configuration #167 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 167
+run #0
+===== Testing configuration #168 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 168
+run #0
+===== Testing configuration #169 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 169
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 170 to 171
+===== Testing configuration #170 =====
+	 ** compiling project
+	 ** executing and evaluating project 170
+run #0
+===== Testing configuration #171 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 171
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 172 to 173
+===== Testing configuration #172 =====
+	 ** compiling project
+	 ** executing and evaluating project 172
+run #0
+===== Testing configuration #173 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 173
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 174 to 179
+===== Testing configuration #174 =====
+	 ** compiling project
+	 ** executing and evaluating project 174
+run #0
+===== Testing configuration #175 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 175
+run #0
+===== Testing configuration #176 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 176
+run #0
+===== Testing configuration #177 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 177
+run #0
+===== Testing configuration #178 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 178
+run #0
+===== Testing configuration #179 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 179
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 180 to 189
+===== Testing configuration #180 =====
+	 ** compiling project
+	 ** executing and evaluating project 180
+run #0
+===== Testing configuration #181 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 181
+run #0
+===== Testing configuration #182 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 182
+run #0
+===== Testing configuration #183 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 183
+run #0
+===== Testing configuration #184 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 184
+run #0
+===== Testing configuration #185 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 185
+run #0
+===== Testing configuration #186 =====
+	 ** compiling project
+	 ** executing and evaluating project 186
+run #0
+===== Testing configuration #187 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 187
+run #0
+===== Testing configuration #188 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 188
+run #0
+===== Testing configuration #189 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 189
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 190 to 191
+===== Testing configuration #190 =====
+	 ** compiling project
+	 ** executing and evaluating project 190
+run #0
+===== Testing configuration #191 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 191
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 192 to 193
+===== Testing configuration #192 =====
+	 ** compiling project
+	 ** executing and evaluating project 192
+run #0
+===== Testing configuration #193 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 193
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 194 to 201
+===== Testing configuration #194 =====
+	 ** compiling project
+	 ** executing and evaluating project 194
+run #0
+===== Testing configuration #195 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 195
+run #0
+===== Testing configuration #196 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 196
+run #0
+===== Testing configuration #197 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 197
+run #0
+===== Testing configuration #198 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 198
+run #0
+===== Testing configuration #199 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 199
+run #0
+===== Testing configuration #200 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 200
+run #0
+===== Testing configuration #201 =====
+	 ** compiling project
+	 ** executing and evaluating project 201
+run #0
+	 ** [FAILED] exceeded error threshold
+
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 202 to 211
+===== Testing configuration #202 =====
+	 ** compiling project
+	 ** executing and evaluating project 202
+run #0
+===== Testing configuration #203 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 203
+run #0
+===== Testing configuration #204 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 204
+run #0
+===== Testing configuration #205 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 205
+run #0
+===== Testing configuration #206 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 206
+run #0
+===== Testing configuration #207 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 207
+run #0
+===== Testing configuration #208 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 208
+run #0
+===== Testing configuration #209 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 209
+run #0
+===== Testing configuration #210 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 210
+run #0
+===== Testing configuration #211 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 211
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 212 to 213
+===== Testing configuration #212 =====
+	 ** compiling project
+	 ** executing and evaluating project 212
+run #0
+===== Testing configuration #213 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 213
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 214 to 215
+===== Testing configuration #214 =====
+	 ** compiling project
+	 ** executing and evaluating project 214
+run #0
+===== Testing configuration #215 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 215
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 216 to 223
+===== Testing configuration #216 =====
+	 ** compiling project
+	 ** executing and evaluating project 216
+run #0
+===== Testing configuration #217 =====
+	 ** compiling project
+	 ** executing and evaluating project 217
+run #0
+===== Testing configuration #218 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 218
+run #0
+===== Testing configuration #219 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 219
+run #0
+===== Testing configuration #220 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 220
+run #0
+===== Testing configuration #221 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 221
+run #0
+===== Testing configuration #222 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 222
+run #0
+===== Testing configuration #223 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 223
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 224 to 235
+===== Testing configuration #224 =====
+	 ** compiling project
+	 ** executing and evaluating project 224
+run #0
+===== Testing configuration #225 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 225
+run #0
+===== Testing configuration #226 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 226
+run #0
+===== Testing configuration #227 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 227
+run #0
+===== Testing configuration #228 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 228
+run #0
+===== Testing configuration #229 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 229
+run #0
+===== Testing configuration #230 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 230
+run #0
+===== Testing configuration #231 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 231
+run #0
+===== Testing configuration #232 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 232
+run #0
+===== Testing configuration #233 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 233
+run #0
+===== Testing configuration #234 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 234
+run #0
+===== Testing configuration #235 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 235
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 236 to 237
+===== Testing configuration #236 =====
+	 ** compiling project
+	 ** executing and evaluating project 236
+run #0
+===== Testing configuration #237 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 237
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 238 to 239
+===== Testing configuration #238 =====
+	 ** compiling project
+	 ** executing and evaluating project 238
+run #0
+===== Testing configuration #239 =====
+	 ** compiling project
+	 ** executing and evaluating project 239
+run #0
+	 ** [FAILED] exceeded error threshold
+
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 240 to 247
+===== Testing configuration #240 =====
+	 ** compiling project
+	 ** executing and evaluating project 240
+run #0
+===== Testing configuration #241 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 241
+run #0
+===== Testing configuration #242 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 242
+run #0
+===== Testing configuration #243 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 243
+run #0
+===== Testing configuration #244 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 244
+run #0
+===== Testing configuration #245 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 245
+run #0
+===== Testing configuration #246 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 246
+run #0
+===== Testing configuration #247 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 247
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 248 to 259
+===== Testing configuration #248 =====
+	 ** compiling project
+	 ** executing and evaluating project 248
+run #0
+===== Testing configuration #249 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 249
+run #0
+===== Testing configuration #250 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 250
+run #0
+===== Testing configuration #251 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 251
+run #0
+===== Testing configuration #252 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 252
+run #0
+===== Testing configuration #253 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 253
+run #0
+===== Testing configuration #254 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 254
+run #0
+===== Testing configuration #255 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 255
+run #0
+===== Testing configuration #256 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 256
+run #0
+===== Testing configuration #257 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 257
+run #0
+===== Testing configuration #258 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 258
+run #0
+===== Testing configuration #259 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 259
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 260 to 261
+===== Testing configuration #260 =====
+	 ** compiling project
+	 ** executing and evaluating project 260
+run #0
+===== Testing configuration #261 =====
+	 ** compiling project
+	 ** executing and evaluating project 261
+run #0
+	 ** [PASSED] cost = 1e-08
+
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 262 to 263
+===== Testing configuration #262 =====
+	 ** compiling project
+	 ** executing and evaluating project 262
+run #0
+===== Testing configuration #263 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 263
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 264 to 271
+===== Testing configuration #264 =====
+	 ** compiling project
+	 ** executing and evaluating project 264
+run #0
+===== Testing configuration #265 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 265
+run #0
+===== Testing configuration #266 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 266
+run #0
+===== Testing configuration #267 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 267
+run #0
+===== Testing configuration #268 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 268
+run #0
+===== Testing configuration #269 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 269
+run #0
+===== Testing configuration #270 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 270
+run #0
+===== Testing configuration #271 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 271
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 272 to 285
+===== Testing configuration #272 =====
+	 ** compiling project
+	 ** executing and evaluating project 272
+run #0
+===== Testing configuration #273 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 273
+run #0
+===== Testing configuration #274 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 274
+run #0
+===== Testing configuration #275 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 275
+run #0
+===== Testing configuration #276 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 276
+run #0
+===== Testing configuration #277 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 277
+run #0
+===== Testing configuration #278 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 278
+run #0
+===== Testing configuration #279 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 279
+run #0
+===== Testing configuration #280 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 280
+run #0
+===== Testing configuration #281 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 281
+run #0
+===== Testing configuration #282 =====
+	 ** compiling project
+	 ** executing and evaluating project 282
+run #0
+===== Testing configuration #283 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 283
+run #0
+===== Testing configuration #284 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 284
+run #0
+===== Testing configuration #285 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 285
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 286 to 287
+===== Testing configuration #286 =====
+	 ** compiling project
+	 ** executing and evaluating project 286
+run #0
+===== Testing configuration #287 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 287
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 288 to 289
+===== Testing configuration #288 =====
+	 ** compiling project
+	 ** executing and evaluating project 288
+run #0
+===== Testing configuration #289 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 289
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 290 to 297
+===== Testing configuration #290 =====
+	 ** compiling project
+	 ** executing and evaluating project 290
+run #0
+===== Testing configuration #291 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 291
+run #0
+===== Testing configuration #292 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 292
+run #0
+===== Testing configuration #293 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 293
+run #0
+===== Testing configuration #294 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 294
+run #0
+===== Testing configuration #295 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 295
+run #0
+===== Testing configuration #296 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 296
+run #0
+===== Testing configuration #297 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 297
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 298 to 313
+===== Testing configuration #298 =====
+	 ** compiling project
+	 ** executing and evaluating project 298
+run #0
+===== Testing configuration #299 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 299
+run #0
+===== Testing configuration #300 =====
+	 ** compiling project
+	 ** executing and evaluating project 300
+run #0
+===== Testing configuration #301 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 301
+run #0
+===== Testing configuration #302 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 302
+run #0
+===== Testing configuration #303 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 303
+run #0
+===== Testing configuration #304 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 304
+run #0
+===== Testing configuration #305 =====
+	 ** compiling project
+	 ** executing and evaluating project 305
+run #0
+===== Testing configuration #306 =====
+	 ** compiling project
+	 ** executing and evaluating project 306
+run #0
+===== Testing configuration #307 =====
+	 ** compiling project
+	 ** executing and evaluating project 307
+run #0
+===== Testing configuration #308 =====
+	 ** compiling project
+	 ** executing and evaluating project 308
+run #0
+===== Testing configuration #309 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 309
+run #0
+===== Testing configuration #310 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 310
+run #0
+===== Testing configuration #311 =====
+	 ** compiling project
+	 ** executing and evaluating project 311
+run #0
+===== Testing configuration #312 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 312
+run #0
+===== Testing configuration #313 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 313
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 314 to 345
+===== Testing configuration #314 =====
+	 ** compiling project
+	 ** executing and evaluating project 314
+run #0
+===== Testing configuration #315 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 315
+run #0
+===== Testing configuration #316 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 316
+run #0
+===== Testing configuration #317 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 317
+run #0
+===== Testing configuration #318 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 318
+run #0
+===== Testing configuration #319 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 319
+run #0
+===== Testing configuration #320 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 320
+run #0
+===== Testing configuration #321 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 321
+run #0
+===== Testing configuration #322 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 322
+run #0
+===== Testing configuration #323 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 323
+run #0
+===== Testing configuration #324 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 324
+run #0
+===== Testing configuration #325 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 325
+run #0
+===== Testing configuration #326 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 326
+run #0
+===== Testing configuration #327 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 327
+run #0
+===== Testing configuration #328 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 328
+run #0
+===== Testing configuration #329 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 329
+run #0
+===== Testing configuration #330 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 330
+run #0
+===== Testing configuration #331 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 331
+run #0
+===== Testing configuration #332 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 332
+run #0
+===== Testing configuration #333 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 333
+run #0
+===== Testing configuration #334 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 334
+run #0
+===== Testing configuration #335 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 335
+run #0
+===== Testing configuration #336 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 336
+run #0
+===== Testing configuration #337 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 337
+run #0
+===== Testing configuration #338 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 338
+run #0
+===== Testing configuration #339 =====
+	 ** compiling project
+	 ** executing and evaluating project 339
+run #0
+===== Testing configuration #340 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 340
+run #0
+===== Testing configuration #341 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 341
+run #0
+===== Testing configuration #342 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 342
+run #0
+===== Testing configuration #343 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 343
+run #0
+===== Testing configuration #344 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 344
+run #0
+===== Testing configuration #345 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 345
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 346 to 347
+===== Testing configuration #346 =====
+	 ** compiling project
+	 ** executing and evaluating project 346
+run #0
+===== Testing configuration #347 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 347
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 348 to 349
+===== Testing configuration #348 =====
+	 ** compiling project
+	 ** executing and evaluating project 348
+run #0
+===== Testing configuration #349 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 349
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 350 to 357
+===== Testing configuration #350 =====
+	 ** compiling project
+	 ** executing and evaluating project 350
+run #0
+===== Testing configuration #351 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 351
+run #0
+===== Testing configuration #352 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 352
+run #0
+===== Testing configuration #353 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 353
+run #0
+===== Testing configuration #354 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 354
+run #0
+===== Testing configuration #355 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 355
+run #0
+===== Testing configuration #356 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 356
+run #0
+===== Testing configuration #357 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 357
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 358 to 371
+===== Testing configuration #358 =====
+	 ** compiling project
+	 ** executing and evaluating project 358
+run #0
+===== Testing configuration #359 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 359
+run #0
+===== Testing configuration #360 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 360
+run #0
+===== Testing configuration #361 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 361
+run #0
+===== Testing configuration #362 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 362
+run #0
+===== Testing configuration #363 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 363
+run #0
+===== Testing configuration #364 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 364
+run #0
+===== Testing configuration #365 =====
+	 ** compiling project
+	 ** executing and evaluating project 365
+run #0
+	 ** [FAILED] exceeded error threshold
+
+===== Testing configuration #366 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 366
+run #0
+===== Testing configuration #367 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 367
+run #0
+===== Testing configuration #368 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 368
+run #0
+===== Testing configuration #369 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 369
+run #0
+===== Testing configuration #370 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 370
+run #0
+===== Testing configuration #371 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 371
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 372 to 391
+===== Testing configuration #372 =====
+	 ** compiling project
+	 ** executing and evaluating project 372
+run #0
+===== Testing configuration #373 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 373
+run #0
+===== Testing configuration #374 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 374
+run #0
+===== Testing configuration #375 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 375
+run #0
+===== Testing configuration #376 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 376
+run #0
+===== Testing configuration #377 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 377
+run #0
+===== Testing configuration #378 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 378
+run #0
+===== Testing configuration #379 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 379
+run #0
+===== Testing configuration #380 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 380
+run #0
+===== Testing configuration #381 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 381
+run #0
+===== Testing configuration #382 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 382
+run #0
+===== Testing configuration #383 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 383
+run #0
+===== Testing configuration #384 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 384
+run #0
+===== Testing configuration #385 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 385
+run #0
+===== Testing configuration #386 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 386
+run #0
+===== Testing configuration #387 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 387
+run #0
+===== Testing configuration #388 =====
+	 ** compiling project
+	 ** executing and evaluating project 388
+run #0
+	 ** [PASSED] cost = 1e-08
+
+===== Testing configuration #389 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 389
+run #0
+===== Testing configuration #390 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 390
+run #0
+===== Testing configuration #391 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 391
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 392 to 393
+===== Testing configuration #392 =====
+	 ** compiling project
+	 ** executing and evaluating project 392
+run #0
+===== Testing configuration #393 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 393
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 394 to 395
+===== Testing configuration #394 =====
+	 ** compiling project
+	 ** executing and evaluating project 394
+run #0
+===== Testing configuration #395 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 395
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 396 to 403
+===== Testing configuration #396 =====
+	 ** compiling project
+	 ** executing and evaluating project 396
+run #0
+===== Testing configuration #397 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 397
+run #0
+===== Testing configuration #398 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 398
+run #0
+===== Testing configuration #399 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 399
+run #0
+===== Testing configuration #400 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 400
+run #0
+===== Testing configuration #401 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 401
+run #0
+===== Testing configuration #402 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 402
+run #0
+===== Testing configuration #403 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 403
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 404 to 417
+===== Testing configuration #404 =====
+	 ** compiling project
+	 ** executing and evaluating project 404
+run #0
+===== Testing configuration #405 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 405
+run #0
+===== Testing configuration #406 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 406
+run #0
+===== Testing configuration #407 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 407
+run #0
+===== Testing configuration #408 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 408
+run #0
+===== Testing configuration #409 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 409
+run #0
+===== Testing configuration #410 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 410
+run #0
+===== Testing configuration #411 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 411
+run #0
+===== Testing configuration #412 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 412
+run #0
+===== Testing configuration #413 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 413
+run #0
+===== Testing configuration #414 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 414
+run #0
+===== Testing configuration #415 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 415
+run #0
+===== Testing configuration #416 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 416
+run #0
+===== Testing configuration #417 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 417
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 418 to 443
+===== Testing configuration #418 =====
+	 ** compiling project
+	 ** executing and evaluating project 418
+run #0
+===== Testing configuration #419 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 419
+run #0
+===== Testing configuration #420 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 420
+run #0
+===== Testing configuration #421 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 421
+run #0
+===== Testing configuration #422 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 422
+run #0
+===== Testing configuration #423 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 423
+run #0
+===== Testing configuration #424 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 424
+run #0
+===== Testing configuration #425 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 425
+run #0
+===== Testing configuration #426 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 426
+run #0
+===== Testing configuration #427 =====
+	 ** compiling project
+	 ** executing and evaluating project 427
+run #0
+===== Testing configuration #428 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 428
+run #0
+===== Testing configuration #429 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 429
+run #0
+===== Testing configuration #430 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 430
+run #0
+===== Testing configuration #431 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 431
+run #0
+===== Testing configuration #432 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 432
+run #0
+===== Testing configuration #433 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 433
+run #0
+===== Testing configuration #434 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 434
+run #0
+===== Testing configuration #435 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 435
+run #0
+===== Testing configuration #436 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 436
+run #0
+===== Testing configuration #437 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 437
+run #0
+===== Testing configuration #438 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 438
+run #0
+===== Testing configuration #439 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 439
+run #0
+===== Testing configuration #440 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 440
+run #0
+===== Testing configuration #441 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 441
+run #0
+===== Testing configuration #442 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 442
+run #0
+===== Testing configuration #443 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 443
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 444 to 445
+===== Testing configuration #444 =====
+	 ** compiling project
+	 ** executing and evaluating project 444
+run #0
+===== Testing configuration #445 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 445
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 446 to 447
+===== Testing configuration #446 =====
+	 ** compiling project
+	 ** executing and evaluating project 446
+run #0
+===== Testing configuration #447 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 447
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 448 to 455
+===== Testing configuration #448 =====
+	 ** compiling project
+	 ** executing and evaluating project 448
+run #0
+===== Testing configuration #449 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 449
+run #0
+===== Testing configuration #450 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 450
+run #0
+===== Testing configuration #451 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 451
+run #0
+===== Testing configuration #452 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 452
+run #0
+===== Testing configuration #453 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 453
+run #0
+===== Testing configuration #454 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 454
+run #0
+===== Testing configuration #455 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 455
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 456 to 469
+===== Testing configuration #456 =====
+	 ** compiling project
+	 ** executing and evaluating project 456
+run #0
+===== Testing configuration #457 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 457
+run #0
+===== Testing configuration #458 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 458
+run #0
+===== Testing configuration #459 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 459
+run #0
+===== Testing configuration #460 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 460
+run #0
+===== Testing configuration #461 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 461
+run #0
+===== Testing configuration #462 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 462
+run #0
+===== Testing configuration #463 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 463
+run #0
+===== Testing configuration #464 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 464
+run #0
+===== Testing configuration #465 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 465
+run #0
+===== Testing configuration #466 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 466
+run #0
+===== Testing configuration #467 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 467
+run #0
+===== Testing configuration #468 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 468
+run #0
+===== Testing configuration #469 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 469
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 470 to 491
+===== Testing configuration #470 =====
+	 ** compiling project
+	 ** executing and evaluating project 470
+run #0
+===== Testing configuration #471 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 471
+run #0
+===== Testing configuration #472 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 472
+run #0
+===== Testing configuration #473 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 473
+run #0
+===== Testing configuration #474 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 474
+run #0
+===== Testing configuration #475 =====
+	 ** compiling project
+	 ** executing and evaluating project 475
+run #0
+===== Testing configuration #476 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 476
+run #0
+===== Testing configuration #477 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 477
+run #0
+===== Testing configuration #478 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 478
+run #0
+===== Testing configuration #479 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 479
+run #0
+===== Testing configuration #480 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 480
+run #0
+===== Testing configuration #481 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 481
+run #0
+===== Testing configuration #482 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 482
+run #0
+===== Testing configuration #483 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 483
+run #0
+===== Testing configuration #484 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 484
+run #0
+===== Testing configuration #485 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 485
+run #0
+===== Testing configuration #486 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 486
+run #0
+===== Testing configuration #487 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 487
+run #0
+===== Testing configuration #488 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 488
+run #0
+===== Testing configuration #489 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 489
+run #0
+===== Testing configuration #490 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 490
+run #0
+===== Testing configuration #491 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 491
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 492 to 525
+===== Testing configuration #492 =====
+	 ** compiling project
+	 ** executing and evaluating project 492
+run #0
+===== Testing configuration #493 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 493
+run #0
+===== Testing configuration #494 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 494
+run #0
+===== Testing configuration #495 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 495
+run #0
+===== Testing configuration #496 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 496
+run #0
+===== Testing configuration #497 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 497
+run #0
+===== Testing configuration #498 =====
+	 ** compiling project
+	 ** executing and evaluating project 498
+run #0
+===== Testing configuration #499 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 499
+run #0
+===== Testing configuration #500 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 500
+run #0
+===== Testing configuration #501 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 501
+run #0
+===== Testing configuration #502 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 502
+run #0
+===== Testing configuration #503 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 503
+run #0
+===== Testing configuration #504 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 504
+run #0
+===== Testing configuration #505 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 505
+run #0
+===== Testing configuration #506 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 506
+run #0
+===== Testing configuration #507 =====
+	 ** compiling project
+	 ** executing and evaluating project 507
+run #0
+===== Testing configuration #508 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 508
+run #0
+===== Testing configuration #509 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 509
+run #0
+===== Testing configuration #510 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 510
+run #0
+===== Testing configuration #511 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 511
+run #0
+===== Testing configuration #512 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 512
+run #0
+===== Testing configuration #513 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 513
+run #0
+===== Testing configuration #514 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 514
+run #0
+===== Testing configuration #515 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 515
+run #0
+===== Testing configuration #516 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 516
+run #0
+===== Testing configuration #517 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 517
+run #0
+===== Testing configuration #518 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 518
+run #0
+===== Testing configuration #519 =====
+	 ** compiling project
+	 ** executing and evaluating project 519
+run #0
+===== Testing configuration #520 =====
+	 ** compiling project
+	 ** executing and evaluating project 520
+run #0
+===== Testing configuration #521 =====
+	 ** compiling project
+	 ** executing and evaluating project 521
+run #0
+===== Testing configuration #522 =====
+	 ** compiling project
+	 ** executing and evaluating project 522
+run #0
+===== Testing configuration #523 =====
+	 ** compiling project
+	 ** executing and evaluating project 523
+run #0
+===== Testing configuration #524 =====
+	 ** compiling project
+	 ** executing and evaluating project 524
+run #0
+===== Testing configuration #525 =====
+	 ** compiling project
+	 ** executing and evaluating project 525
+run #0
+	 ** [PASSED] cost = 1e-08
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** [PASSED] cost = 1e-08
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** [PASSED] cost = 1e-08
+
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 526 to 527
+===== Testing configuration #526 =====
+	 ** compiling project
+	 ** executing and evaluating project 526
+run #0
+===== Testing configuration #527 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 527
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 528 to 529
+===== Testing configuration #528 =====
+	 ** compiling project
+	 ** executing and evaluating project 528
+run #0
+===== Testing configuration #529 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 529
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 530 to 537
+===== Testing configuration #530 =====
+	 ** compiling project
+	 ** executing and evaluating project 530
+run #0
+===== Testing configuration #531 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 531
+run #0
+===== Testing configuration #532 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 532
+run #0
+===== Testing configuration #533 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 533
+run #0
+===== Testing configuration #534 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 534
+run #0
+===== Testing configuration #535 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 535
+run #0
+===== Testing configuration #536 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 536
+run #0
+===== Testing configuration #537 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 537
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 538 to 553
+===== Testing configuration #538 =====
+	 ** compiling project
+	 ** executing and evaluating project 538
+run #0
+===== Testing configuration #539 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 539
+run #0
+===== Testing configuration #540 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 540
+run #0
+===== Testing configuration #541 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 541
+run #0
+===== Testing configuration #542 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 542
+run #0
+===== Testing configuration #543 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 543
+run #0
+===== Testing configuration #544 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 544
+run #0
+===== Testing configuration #545 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 545
+run #0
+===== Testing configuration #546 =====
+	 ** compiling project
+	 ** executing and evaluating project 546
+run #0
+===== Testing configuration #547 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 547
+run #0
+===== Testing configuration #548 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 548
+run #0
+===== Testing configuration #549 =====
+	 ** compiling project
+	 ** executing and evaluating project 549
+run #0
+===== Testing configuration #550 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 550
+run #0
+===== Testing configuration #551 =====
+	 ** compiling project
+	 ** executing and evaluating project 551
+run #0
+	 ** [FAILED] exceeded error threshold
+
+===== Testing configuration #552 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 552
+run #0
+===== Testing configuration #553 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 553
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 554 to 579
+===== Testing configuration #554 =====
+	 ** compiling project
+	 ** executing and evaluating project 554
+run #0
+===== Testing configuration #555 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 555
+run #0
+===== Testing configuration #556 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 556
+run #0
+===== Testing configuration #557 =====
+	 ** compiling project
+	 ** executing and evaluating project 557
+run #0
+===== Testing configuration #558 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 558
+run #0
+===== Testing configuration #559 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 559
+run #0
+===== Testing configuration #560 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 560
+run #0
+===== Testing configuration #561 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 561
+run #0
+===== Testing configuration #562 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 562
+run #0
+===== Testing configuration #563 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 563
+run #0
+===== Testing configuration #564 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 564
+run #0
+===== Testing configuration #565 =====
+	 ** compiling project
+	 ** executing and evaluating project 565
+run #0
+===== Testing configuration #566 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 566
+run #0
+===== Testing configuration #567 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 567
+run #0
+===== Testing configuration #568 =====
+	 ** compiling project
+	 ** executing and evaluating project 568
+run #0
+	 ** [FAILED] exceeded error threshold
+
+===== Testing configuration #569 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 569
+run #0
+===== Testing configuration #570 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 570
+run #0
+===== Testing configuration #571 =====
+	 ** compiling project
+	 ** executing and evaluating project 571
+run #0
+===== Testing configuration #572 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 572
+run #0
+===== Testing configuration #573 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 573
+run #0
+===== Testing configuration #574 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 574
+run #0
+===== Testing configuration #575 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 575
+run #0
+===== Testing configuration #576 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 576
+run #0
+===== Testing configuration #577 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 577
+run #0
+===== Testing configuration #578 =====
+	 ** compiling project
+	 ** executing and evaluating project 578
+run #0
+===== Testing configuration #579 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 579
+run #0
+	 ** [PASSED] cost = 1e-08
+
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 580 to 629
+===== Testing configuration #580 =====
+	 ** compiling project
+	 ** executing and evaluating project 580
+run #0
+===== Testing configuration #581 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 581
+run #0
+===== Testing configuration #582 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 582
+run #0
+===== Testing configuration #583 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 583
+run #0
+===== Testing configuration #584 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 584
+run #0
+===== Testing configuration #585 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 585
+run #0
+===== Testing configuration #586 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 586
+run #0
+===== Testing configuration #587 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 587
+run #0
+===== Testing configuration #588 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 588
+run #0
+===== Testing configuration #589 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 589
+run #0
+===== Testing configuration #590 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 590
+run #0
+===== Testing configuration #591 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 591
+run #0
+===== Testing configuration #592 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 592
+run #0
+===== Testing configuration #593 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 593
+run #0
+===== Testing configuration #594 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 594
+run #0
+===== Testing configuration #595 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 595
+run #0
+===== Testing configuration #596 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 596
+run #0
+===== Testing configuration #597 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 597
+run #0
+===== Testing configuration #598 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 598
+run #0
+===== Testing configuration #599 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 599
+run #0
+===== Testing configuration #600 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 600
+run #0
+===== Testing configuration #601 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 601
+run #0
+===== Testing configuration #602 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 602
+run #0
+===== Testing configuration #603 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 603
+run #0
+===== Testing configuration #604 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 604
+run #0
+===== Testing configuration #605 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 605
+run #0
+===== Testing configuration #606 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 606
+run #0
+===== Testing configuration #607 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 607
+run #0
+===== Testing configuration #608 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 608
+run #0
+===== Testing configuration #609 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 609
+run #0
+===== Testing configuration #610 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 610
+run #0
+===== Testing configuration #611 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 611
+run #0
+===== Testing configuration #612 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 612
+run #0
+===== Testing configuration #613 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 613
+run #0
+===== Testing configuration #614 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 614
+run #0
+===== Testing configuration #615 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 615
+run #0
+===== Testing configuration #616 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 616
+run #0
+===== Testing configuration #617 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 617
+run #0
+===== Testing configuration #618 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 618
+run #0
+===== Testing configuration #619 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 619
+run #0
+===== Testing configuration #620 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 620
+run #0
+===== Testing configuration #621 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 621
+run #0
+===== Testing configuration #622 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 622
+run #0
+===== Testing configuration #623 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 623
+run #0
+===== Testing configuration #624 =====
+	 ** compiling project
+	 ** executing and evaluating project 624
+run #0
+===== Testing configuration #625 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 625
+run #0
+===== Testing configuration #626 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 626
+run #0
+===== Testing configuration #627 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 627
+run #0
+===== Testing configuration #628 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 628
+run #0
+===== Testing configuration #629 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 629
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 630 to 631
+===== Testing configuration #630 =====
+	 ** compiling project
+	 ** executing and evaluating project 630
+run #0
+===== Testing configuration #631 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 631
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 632 to 633
+===== Testing configuration #632 =====
+	 ** compiling project
+	 ** executing and evaluating project 632
+run #0
+===== Testing configuration #633 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 633
+run #0
+	 ** [FAILED] exceeded error threshold
+
+current batch: from 634 to 641
+===== Testing configuration #634 =====
+	 ** compiling project
+	 ** executing and evaluating project 634
+run #0
+===== Testing configuration #635 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 635
+run #0
+===== Testing configuration #636 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 636
+run #0
+===== Testing configuration #637 =====
+	 ** compiling project
+	 ** executing and evaluating project 637
+run #0
+===== Testing configuration #638 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 638
+run #0
+===== Testing configuration #639 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 639
+run #0
+===== Testing configuration #640 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 640
+run #0
+===== Testing configuration #641 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 641
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 642 to 657
+===== Testing configuration #642 =====
+	 ** compiling project
+	 ** executing and evaluating project 642
+run #0
+===== Testing configuration #643 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 643
+run #0
+===== Testing configuration #644 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 644
+run #0
+===== Testing configuration #645 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 645
+run #0
+===== Testing configuration #646 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 646
+run #0
+===== Testing configuration #647 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 647
+run #0
+===== Testing configuration #648 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 648
+run #0
+===== Testing configuration #649 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 649
+run #0
+===== Testing configuration #650 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 650
+run #0
+===== Testing configuration #651 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 651
+run #0
+===== Testing configuration #652 =====
+	 ** compiling project
+	 ** executing and evaluating project 652
+run #0
+===== Testing configuration #653 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 653
+run #0
+===== Testing configuration #654 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 654
+run #0
+===== Testing configuration #655 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 655
+run #0
+===== Testing configuration #656 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 656
+run #0
+===== Testing configuration #657 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 657
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 658 to 687
+===== Testing configuration #658 =====
+	 ** compiling project
+	 ** executing and evaluating project 658
+run #0
+===== Testing configuration #659 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 659
+run #0
+===== Testing configuration #660 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 660
+run #0
+===== Testing configuration #661 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 661
+run #0
+===== Testing configuration #662 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 662
+run #0
+===== Testing configuration #663 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 663
+run #0
+===== Testing configuration #664 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 664
+run #0
+===== Testing configuration #665 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 665
+run #0
+===== Testing configuration #666 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 666
+run #0
+===== Testing configuration #667 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 667
+run #0
+===== Testing configuration #668 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 668
+run #0
+===== Testing configuration #669 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 669
+run #0
+===== Testing configuration #670 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 670
+run #0
+===== Testing configuration #671 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 671
+run #0
+===== Testing configuration #672 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 672
+run #0
+===== Testing configuration #673 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 673
+run #0
+===== Testing configuration #674 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 674
+run #0
+===== Testing configuration #675 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 675
+run #0
+===== Testing configuration #676 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 676
+run #0
+===== Testing configuration #677 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 677
+run #0
+===== Testing configuration #678 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 678
+run #0
+===== Testing configuration #679 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 679
+run #0
+===== Testing configuration #680 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 680
+run #0
+===== Testing configuration #681 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 681
+run #0
+===== Testing configuration #682 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 682
+run #0
+===== Testing configuration #683 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 683
+run #0
+===== Testing configuration #684 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 684
+run #0
+===== Testing configuration #685 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 685
+run #0
+===== Testing configuration #686 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 686
+run #0
+===== Testing configuration #687 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 687
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 688 to 739
+===== Testing configuration #688 =====
+	 ** compiling project
+	 ** executing and evaluating project 688
+run #0
+===== Testing configuration #689 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 689
+run #0
+===== Testing configuration #690 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 690
+run #0
+===== Testing configuration #691 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 691
+run #0
+===== Testing configuration #692 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 692
+run #0
+===== Testing configuration #693 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 693
+run #0
+===== Testing configuration #694 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 694
+run #0
+===== Testing configuration #695 =====
+	 ** compiling project
+	 ** executing and evaluating project 695
+run #0
+===== Testing configuration #696 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 696
+run #0
+===== Testing configuration #697 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 697
+run #0
+===== Testing configuration #698 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 698
+run #0
+===== Testing configuration #699 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 699
+run #0
+===== Testing configuration #700 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 700
+run #0
+===== Testing configuration #701 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 701
+run #0
+===== Testing configuration #702 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 702
+run #0
+===== Testing configuration #703 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 703
+run #0
+===== Testing configuration #704 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 704
+run #0
+===== Testing configuration #705 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 705
+run #0
+===== Testing configuration #706 =====
+	 ** compiling project
+	 ** executing and evaluating project 706
+run #0
+===== Testing configuration #707 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 707
+run #0
+===== Testing configuration #708 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 708
+run #0
+===== Testing configuration #709 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 709
+run #0
+===== Testing configuration #710 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 710
+run #0
+===== Testing configuration #711 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 711
+run #0
+===== Testing configuration #712 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 712
+run #0
+===== Testing configuration #713 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 713
+run #0
+===== Testing configuration #714 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 714
+run #0
+===== Testing configuration #715 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 715
+run #0
+===== Testing configuration #716 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 716
+run #0
+===== Testing configuration #717 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 717
+run #0
+===== Testing configuration #718 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 718
+run #0
+===== Testing configuration #719 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 719
+run #0
+===== Testing configuration #720 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 720
+run #0
+===== Testing configuration #721 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 721
+run #0
+===== Testing configuration #722 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 722
+run #0
+===== Testing configuration #723 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 723
+run #0
+===== Testing configuration #724 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 724
+run #0
+===== Testing configuration #725 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 725
+run #0
+===== Testing configuration #726 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 726
+run #0
+===== Testing configuration #727 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 727
+run #0
+===== Testing configuration #728 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 728
+run #0
+===== Testing configuration #729 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 729
+run #0
+===== Testing configuration #730 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 730
+run #0
+===== Testing configuration #731 =====
+	 ** compiling project
+	 ** executing and evaluating project 731
+run #0
+	 ** [FAILED] exceeded error threshold
+
+===== Testing configuration #732 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 732
+run #0
+===== Testing configuration #733 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 733
+run #0
+===== Testing configuration #734 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 734
+run #0
+===== Testing configuration #735 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 735
+run #0
+===== Testing configuration #736 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 736
+run #0
+===== Testing configuration #737 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 737
+run #0
+===== Testing configuration #738 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 738
+run #0
+===== Testing configuration #739 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 739
+run #0
+	 ** [PASSED] cost = 1e-08
+
+current batch: from 740 to 841
+===== Testing configuration #740 =====
+	 ** compiling project
+	 ** executing and evaluating project 740
+run #0
+===== Testing configuration #741 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 741
+run #0
+===== Testing configuration #742 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 742
+run #0
+===== Testing configuration #743 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 743
+run #0
+===== Testing configuration #744 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 744
+run #0
+===== Testing configuration #745 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 745
+run #0
+===== Testing configuration #746 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 746
+run #0
+===== Testing configuration #747 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 747
+run #0
+===== Testing configuration #748 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 748
+run #0
+===== Testing configuration #749 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 749
+run #0
+===== Testing configuration #750 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 750
+run #0
+===== Testing configuration #751 =====
+	 ** compiling project
+	 ** executing and evaluating project 751
+run #0
+===== Testing configuration #752 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 752
+run #0
+===== Testing configuration #753 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 753
+run #0
+===== Testing configuration #754 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 754
+run #0
+===== Testing configuration #755 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 755
+run #0
+===== Testing configuration #756 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 756
+run #0
+===== Testing configuration #757 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 757
+run #0
+===== Testing configuration #758 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 758
+run #0
+===== Testing configuration #759 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 759
+run #0
+===== Testing configuration #760 =====
+	 ** compiling project
+	 ** executing and evaluating project 760
+run #0
+	 ** [PASSED] cost = 1e-08
+
+===== Testing configuration #761 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 761
+run #0
+===== Testing configuration #762 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 762
+run #0
+===== Testing configuration #763 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 763
+run #0
+===== Testing configuration #764 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 764
+run #0
+===== Testing configuration #765 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 765
+run #0
+===== Testing configuration #766 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 766
+run #0
+===== Testing configuration #767 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 767
+run #0
+===== Testing configuration #768 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 768
+run #0
+===== Testing configuration #769 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 769
+run #0
+===== Testing configuration #770 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 770
+run #0
+===== Testing configuration #771 =====
+	 ** compiling project
+	 ** executing and evaluating project 771
+run #0
+===== Testing configuration #772 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 772
+run #0
+===== Testing configuration #773 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 773
+run #0
+===== Testing configuration #774 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 774
+run #0
+===== Testing configuration #775 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 775
+run #0
+===== Testing configuration #776 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 776
+run #0
+===== Testing configuration #777 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 777
+run #0
+===== Testing configuration #778 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 778
+run #0
+===== Testing configuration #779 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 779
+run #0
+===== Testing configuration #780 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 780
+run #0
+===== Testing configuration #781 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 781
+run #0
+===== Testing configuration #782 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 782
+run #0
+===== Testing configuration #783 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 783
+run #0
+===== Testing configuration #784 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 784
+run #0
+===== Testing configuration #785 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 785
+run #0
+===== Testing configuration #786 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 786
+run #0
+===== Testing configuration #787 =====
+	 ** compiling project
+	 ** executing and evaluating project 787
+run #0
+===== Testing configuration #788 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 788
+run #0
+===== Testing configuration #789 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 789
+run #0
+===== Testing configuration #790 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 790
+run #0
+===== Testing configuration #791 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 791
+run #0
+===== Testing configuration #792 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 792
+run #0
+===== Testing configuration #793 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 793
+run #0
+===== Testing configuration #794 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 794
+run #0
+===== Testing configuration #795 =====
+	 ** compiling project
+	 ** executing and evaluating project 795
+run #0
+===== Testing configuration #796 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 796
+run #0
+===== Testing configuration #797 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 797
+run #0
+===== Testing configuration #798 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 798
+run #0
+===== Testing configuration #799 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 799
+run #0
+===== Testing configuration #800 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 800
+run #0
+===== Testing configuration #801 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 801
+run #0
+===== Testing configuration #802 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 802
+run #0
+===== Testing configuration #803 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 803
+run #0
+===== Testing configuration #804 =====
+	 ** compiling project
+	 ** executing and evaluating project 804
+run #0
+===== Testing configuration #805 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 805
+run #0
+===== Testing configuration #806 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 806
+run #0
+===== Testing configuration #807 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 807
+run #0
+===== Testing configuration #808 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 808
+run #0
+===== Testing configuration #809 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 809
+run #0
+===== Testing configuration #810 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 810
+run #0
+===== Testing configuration #811 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 811
+run #0
+===== Testing configuration #812 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 812
+run #0
+===== Testing configuration #813 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 813
+run #0
+===== Testing configuration #814 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 814
+run #0
+===== Testing configuration #815 =====
+	 ** compiling project
+	 ** executing and evaluating project 815
+run #0
+===== Testing configuration #816 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 816
+run #0
+===== Testing configuration #817 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 817
+run #0
+===== Testing configuration #818 =====
+	 ** compiling project
+	 ** executing and evaluating project 818
+run #0
+===== Testing configuration #819 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 819
+run #0
+===== Testing configuration #820 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 820
+run #0
+===== Testing configuration #821 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 821
+run #0
+===== Testing configuration #822 =====
+	 ** compiling project
+	 ** executing and evaluating project 822
+run #0
+===== Testing configuration #823 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 823
+run #0
+===== Testing configuration #824 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 824
+run #0
+===== Testing configuration #825 =====
+	 ** compiling project
+	 ** executing and evaluating project 825
+run #0
+===== Testing configuration #826 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 826
+run #0
+===== Testing configuration #827 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 827
+run #0
+===== Testing configuration #828 =====
+	 ** compiling project
+	 ** executing and evaluating project 828
+run #0
+===== Testing configuration #829 =====
+	 ** compiling project
+	 ** executing and evaluating project 829
+run #0
+===== Testing configuration #830 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** [PASSED] cost = 1e-08
+
+	 ** [PASSED] cost = 1e-08
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 830
+run #0
+===== Testing configuration #831 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 831
+run #0
+===== Testing configuration #832 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 832
+run #0
+===== Testing configuration #833 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 833
+run #0
+===== Testing configuration #834 =====
+	 ** compiling project
+	 ** executing and evaluating project 834
+run #0
+===== Testing configuration #835 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 835
+run #0
+===== Testing configuration #836 =====
+	 ** compiling project
+	 ** executing and evaluating project 836
+run #0
+===== Testing configuration #837 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 837
+run #0
+===== Testing configuration #838 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 838
+run #0
+===== Testing configuration #839 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 839
+run #0
+===== Testing configuration #840 =====
+	 ** compiling project
+	 ** [PASSED] cost = 1e-08
+
+	 ** executing and evaluating project 840
+run #0
+===== Testing configuration #841 =====
+	 ** compiling project
+	 ** [FAILED] exceeded error threshold
+
+	 ** executing and evaluating project 841
+run #0
+	 ** [PASSED] cost = 1e-08
+
+Configuration 98 had the minimal cost of 1e-08

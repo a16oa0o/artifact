@@ -1,0 +1,22 @@
+               -: /glade/u/home/jdvanover/precimonious-w-rose/tests/aliasing_test/auxiliary_module_1.f90
+               -:      1:module auxiliary_module_1
+               -:      2:
+               -:      3:    implicit none; private
+               -:      4:
+               -:      5:    public  ::  foo
+               -:      6:
+               -:      7:    contains
+               -:      8:
+               1:      9:    function foo(x)
+               -:     10:        real(kind=8)    :: x
+               -:     11:        integer         :: foo
+               -:     12:
+               1:     13:        if (x > 0.0) then 
+           #####:     14:            foo = 1
+               -:     15:        else
+               1:     16:            foo = -1
+               -:     17:        endif
+               -:     18:        
+               -:     19:    end function
+               -:     20:
+               -:     21:end module auxiliary_module_1

@@ -1,0 +1,2 @@
+/glade/u/home/jdvanover/precimonious-w-rose/tests/logical_operators_test/main.f90
+/glade/u/home/jdvanover/precimonious-w-rose/tests/logical_operators_test/target_module.f90

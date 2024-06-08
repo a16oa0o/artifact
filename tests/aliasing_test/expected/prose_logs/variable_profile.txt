@@ -1,0 +1,2 @@
+::target_module::foo::x,variableType=scalar,kind=8
+::target_module::target_subroutine::result,variableType=scalar,kind=8

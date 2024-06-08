@@ -1,0 +1,15 @@
+::target_module::sub_subroutine2::sub_subroutine2,variableType=scalar,kind=8
+::target_module::sub_subroutine2::pconstant,variableType=scalar,kind=16
+::target_module::sub_subroutine::sub_subroutine,variableType=scalar,kind=8
+::target_module::sub_subroutine::p3,variableType=scalar,kind=16
+::target_module::sub_subroutine::p2,variableType=scalar,kind=16
+::target_module::sub_subroutine::pconstant,variableType=scalar,kind=16
+::target_module::sub_subroutine::p1,variableType=scalar,kind=16
+::target_module::target_subroutine::p6,variableType=scalar,kind=16
+::target_module::target_subroutine::p5,variableType=scalar,kind=16
+::target_module::target_subroutine::result,variableType=scalar,kind=8
+::target_module::target_subroutine::pconstant,variableType=scalar,kind=16
+::target_module::target_subroutine::p1,variableType=scalar,kind=16
+::target_module::target_subroutine::p2,variableType=scalar,kind=16
+::target_module::target_subroutine::p3,variableType=scalar,kind=16
+::target_module::target_subroutine::p4,variableType=scalar,kind=16

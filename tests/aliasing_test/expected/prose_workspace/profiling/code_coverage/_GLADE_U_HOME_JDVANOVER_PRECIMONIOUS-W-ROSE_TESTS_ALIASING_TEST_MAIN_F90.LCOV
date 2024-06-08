@@ -1,0 +1,16 @@
+               -: /glade/u/home/jdvanover/precimonious-w-rose/tests/aliasing_test/main.f90
+               1:      1:program main
+               -:      2:    use target_module, only: target_subroutine
+               -:      3:    implicit none
+               -:      4:
+               -:      5:    real (kind=8)  :: result
+               -:      6:    integer         :: dummy=0
+               -:      7:
+               1:      8:    call target_subroutine(result)
+               -:      9:
+               -:     10:    ! time left blank intentionally for regression testing
+               -:     11:    ! see eval.py for code that generates cost metric
+               1:     12:    print *, "out: ", result
+               1:     13:    print *, "time: ", dummy
+               -:     14:    
+               -:     15:end program main

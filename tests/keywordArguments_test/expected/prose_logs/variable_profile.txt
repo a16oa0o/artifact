@@ -1,0 +1,5 @@
+::target_module::target_subroutine::result4,variableType=scalar,kind=8
+::target_module::target_subroutine::result3,variableType=scalar,kind=8
+::target_module::target_subroutine::result2,variableType=scalar,kind=8
+::target_module::target_subroutine::result,variableType=scalar,kind=8
+::target_module::target_subroutine::result1,variableType=scalar,kind=8

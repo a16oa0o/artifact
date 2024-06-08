@@ -1,0 +1,4 @@
+::target_module::my_sum_2d::ptr;::target_module::target_subroutine::ptr1;
+::target_module::my_sum_3d::ptr;::target_module::target_subroutine::ptr2;
+::target_module::target_subroutine::result;::main::result;
+::target_module::target_subroutine::array2;::main::array2;

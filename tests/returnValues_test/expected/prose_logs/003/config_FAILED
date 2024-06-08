@@ -1,0 +1,13 @@
+::target_module::explicit_bar::bar_return,4
+::target_module::explicit_bar::x,4
+::target_module::implicit_bar::implicit_bar,4
+::target_module::implicit_bar::x,4
+::target_module::target_subroutine::eb,4
+::target_module::target_subroutine::eebr,8
+::target_module::target_subroutine::eifr,8
+::target_module::target_subroutine::ib,8
+::target_module::target_subroutine::result,8
+
+
+
+

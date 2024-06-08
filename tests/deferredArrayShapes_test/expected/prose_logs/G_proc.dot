@@ -1,0 +1,12 @@
+digraph G {
+0[label="::auxiliary_module::construct_array_target"];
+1[label="::target_module"];
+2[label="::target_module::target_subroutine"];
+3[label="::auxiliary_type"];
+4[label="::auxiliary_type::my_derived_type"];
+5[label="::main"];
+6[label="::auxiliary_module"];
+7[label="::auxiliary_module::construct_array_dummy"];
+2->0 [label="::target_module::target_subroutinecallconstruct_array(array)"];
+5->2 [label="::maincalltarget_subroutine(result,dt)"];
+}
